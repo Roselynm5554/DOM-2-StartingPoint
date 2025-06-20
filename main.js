@@ -2,9 +2,6 @@
 
 // Please feel free to change the JS as you see fit! This is just a starting point.
 
-// Select the fill-grid button and color dropdown
-const fillGridBtn = document.getElementById("fill-grid");
-
 // On button click, fill all cells
 fillGridBtn.addEventListener("click", () => {
   const selectedColor = colorSelect.value;
